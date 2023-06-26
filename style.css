@@ -45,6 +45,11 @@
     color: #fff;
 }
 
+.input:focus {
+    outline: none;
+    color: #fff;
+}
+
 .input:hover {
     background: none;
     border-top: none;
