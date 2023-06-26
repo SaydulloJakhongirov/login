@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.from-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url(/img/bacground.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.border {
+    padding: 80px;
+    border: 2px solid #fff;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.group-input {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.login-text {
+    color: #fff;
+    font-size: 60px;
+}
+
+.input {
+    padding: 15px 30px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input:hover {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn1 {
+    padding: 15px 35px;
+    background: none;
+    color: #fff;
+    border: #fff solid 1px;
+    border-radius: 10px;
+}
+
+.lebel {
+    padding: 20px 0;
+}
+
+.a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:480px) {
+    .border {
+        padding: 50px;
+    }
+
+    .input {
+        display: flex;
+        padding: 10px 20px;
+    }
+
+    .login-text {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .border {
+        padding: 40px;
+    }
+
+    .input {
+        padding: 8px 15px;
+    }
+
+    .login-text {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .border {
+        padding: 30px;
+    }
+
+    .input {
+        padding: 8px 15px;
+    }
+
+    .login-text {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .a {
+        font-size: 15px;
+    }
+}
