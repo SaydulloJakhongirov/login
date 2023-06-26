@@ -40,11 +40,14 @@
     padding: 15px 30px;
     background: none;
     border-top: none;
+    border-bottom: #fff 1px solid;
     border-left: none;
     border-right: none;
     color: #fff;
 }
-
+::placeholder {
+    color: #fff;
+  }
 .input:focus {
     outline: none;
     color: #fff;
@@ -63,6 +66,7 @@
 }
 
 .btn1 {
+    cursor: pointer;
     padding: 15px 35px;
     background: none;
     color: #fff;
@@ -70,8 +74,19 @@
     border-radius: 10px;
 }
 
+.btn1:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.7s;
+}
+
 .lebel {
     padding: 20px 0;
+}
+
+.a:hover{
+    color: blue;
+    transition: 0.7s;
 }
 
 .a {
